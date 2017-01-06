@@ -7,9 +7,9 @@ package com.intel.mtwilson.client.jaxrs;
 import com.intel.mtwilson.attestation.client.jaxrs.Oems;
 import com.intel.dcsg.cpg.io.UUID;
 import com.intel.mtwilson.My;
-import com.intel.mtwilson.as.rest.v2.model.Oem;
-import com.intel.mtwilson.as.rest.v2.model.OemCollection;
-import com.intel.mtwilson.as.rest.v2.model.OemFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.Oem;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.OemCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.OemFilterCriteria;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

@@ -5,9 +5,9 @@
 package com.intel.mtwilson.attestation.client.jaxrs;
 
 import com.intel.mtwilson.jaxrs2.client.MtWilsonClient;
-import com.intel.mtwilson.as.rest.v2.model.Mle;
-import com.intel.mtwilson.as.rest.v2.model.MleCollection;
-import com.intel.mtwilson.as.rest.v2.model.MleFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.Mle;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.MleCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.MleFilterCriteria;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Properties;

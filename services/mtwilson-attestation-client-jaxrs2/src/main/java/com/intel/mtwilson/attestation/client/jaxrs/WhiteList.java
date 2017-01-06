@@ -5,8 +5,8 @@
 package com.intel.mtwilson.attestation.client.jaxrs;
 
 import com.intel.mtwilson.jaxrs2.client.MtWilsonClient;
-import com.intel.mtwilson.as.rest.v2.model.CreateWhiteListRpcInput;
-import com.intel.mtwilson.as.rest.v2.model.CreateWhiteListWithOptionsRpcInput;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.CreateWhiteListRpcInput;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.CreateWhiteListWithOptionsRpcInput;
 import java.net.URL;
 import java.util.LinkedHashMap;
 import java.util.Properties;

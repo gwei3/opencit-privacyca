@@ -5,8 +5,8 @@
 package com.intel.mtwilson.attestation.client.jaxrs;
 
 import com.intel.mtwilson.jaxrs2.client.MtWilsonClient;
-import com.intel.mtwilson.as.rest.v2.model.RegisterHostsRpcInput;
-import com.intel.mtwilson.as.rest.v2.model.RegisterHostsWithOptionsRpcInput;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.RegisterHostsRpcInput;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.RegisterHostsWithOptionsRpcInput;
 import com.intel.mtwilson.datatypes.HostConfigResponse;
 import com.intel.mtwilson.i18n.ErrorCode;
 import java.net.URL;

@@ -6,9 +6,9 @@ package com.intel.mtwilson.client.jaxrs;
 
 import com.intel.mtwilson.attestation.client.jaxrs.HostAttestations;
 import com.intel.mtwilson.My;
-import com.intel.mtwilson.as.rest.v2.model.HostAttestation;
-import com.intel.mtwilson.as.rest.v2.model.HostAttestationCollection;
-import com.intel.mtwilson.as.rest.v2.model.HostAttestationFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAttestation;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAttestationCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAttestationFilterCriteria;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

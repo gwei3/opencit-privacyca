@@ -5,9 +5,9 @@
 package com.intel.mtwilson.attestation.client.jaxrs;
 
 import com.intel.mtwilson.jaxrs2.client.MtWilsonClient;
-import com.intel.mtwilson.as.rest.v2.model.HostAik;
-import com.intel.mtwilson.as.rest.v2.model.HostAikCollection;
-import com.intel.mtwilson.as.rest.v2.model.HostAikFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAik;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAikCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.HostAikFilterCriteria;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Properties;

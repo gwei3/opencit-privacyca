@@ -7,9 +7,9 @@ package com.intel.mtwilson.client.jaxrs;
 import com.intel.mtwilson.attestation.client.jaxrs.MleModules;
 import com.intel.dcsg.cpg.io.UUID;
 import com.intel.mtwilson.My;
-import com.intel.mtwilson.as.rest.v2.model.MleModule;
-import com.intel.mtwilson.as.rest.v2.model.MleModuleCollection;
-import com.intel.mtwilson.as.rest.v2.model.MleModuleFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.MleModule;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.MleModuleCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.MleModuleFilterCriteria;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

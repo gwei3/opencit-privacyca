@@ -6,9 +6,9 @@ package com.intel.mtwilson.attestation.client.jaxrs;
 
 import com.intel.mtwilson.jaxrs2.client.MtWilsonClient;
 import com.intel.dcsg.cpg.tls.policy.TlsConnection;
-import com.intel.mtwilson.as.rest.v2.model.TagCertificate;
-import com.intel.mtwilson.as.rest.v2.model.TagCertificateCollection;
-import com.intel.mtwilson.as.rest.v2.model.TagCertificateFilterCriteria;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.TagCertificate;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.TagCertificateCollection;
+import com.intel.mtwilson.trustagent.as.rest.v2.model.TagCertificateFilterCriteria;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Properties;
