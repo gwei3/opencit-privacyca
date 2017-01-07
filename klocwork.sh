@@ -1,7 +1,7 @@
 #!/bin/bash
 buildSpecsDirectory="/home/klocwork/kw_build_specs"
 tablesDirectory="/home/klocwork/kwtables"
-klocworkProject="dcg_security-trustagent"
+klocworkProject="dcg_security-privacyca"
 klocworkServerUrl="https://klocwork-jf18.devtools.intel.com:8160"
 
 initialize() {
@@ -11,11 +11,11 @@ initialize() {
 
 generateBuildSpecs() {
   ant ready clean
-  (cd features && kwmaven --output "${buildSpecsDirectory}/trustagent.out" -DskipTests=true install)
+  (cd features && kwmaven --output "${buildSpecsDirectory}/privacyca.out" -DskipTests=true install)
 }
 
 buildProject() {
-  kwbuildproject --url "${klocworkServerUrl}/${klocworkProject}" --tables-directory "${tablesDirectory}" --force "${buildSpecsDirectory}/trustagent.out"
+  kwbuildproject --url "${klocworkServerUrl}/${klocworkProject}" --tables-directory "${tablesDirectory}" --force "${buildSpecsDirectory}/privacyca.out"
 }
 
 uploadResults() {
