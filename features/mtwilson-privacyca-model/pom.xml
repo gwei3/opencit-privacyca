@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.intel.mtwilson.services</groupId>
+    <groupId>com.intel.mtwilson.privacyca.features</groupId>
     <artifactId>mtwilson-privacyca-model</artifactId>
     
     <packaging>jar</packaging>
-    <name>mtwilson-privacyca-model</name>
     
     <parent>
         <groupId>com.intel.mtwilson.privacyca.features</groupId>
