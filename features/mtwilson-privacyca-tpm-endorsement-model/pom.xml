@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.intel.mtwilson.services</groupId>
-    <artifactId>mtwilson-tpm-endorsement-model</artifactId>
+    <groupId>com.intel.mtwilson.privacyca.features</groupId>
+    <artifactId>mtwilson-privacyca-tpm-endorsement-model</artifactId>
     
     <packaging>jar</packaging>
-    <name>mtwilson-tpm-endorsement-model</name>
     <description>Domain model for TPM endorsements</description>
     
     <parent>
@@ -24,6 +23,7 @@
     </build>
     
     <dependencies>
+        <!-- common-java -->
         <dependency>
             <groupId>com.intel.mtwilson.util</groupId>
             <artifactId>mtwilson-util-jaxrs2</artifactId>
