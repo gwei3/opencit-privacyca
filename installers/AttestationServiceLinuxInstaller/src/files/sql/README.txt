@@ -1,1 +1,0 @@
-SQL files have been moved to mountwilson-0.5.4/database/mysql/src/sql
