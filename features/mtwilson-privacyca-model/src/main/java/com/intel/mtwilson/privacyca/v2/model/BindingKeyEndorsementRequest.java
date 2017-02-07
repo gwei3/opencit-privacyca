@@ -22,6 +22,8 @@ public class BindingKeyEndorsementRequest{
     private byte[] tpmCertifyKeySignature;
     private byte[] aikDerCertificate;
     private short encryptionScheme; // TPM Encryption Scheme
+    private byte[] nameDigest;
+    private String tpmVersion = null;
 
     public short getEncryptionScheme() {
         return encryptionScheme;
@@ -29,6 +31,14 @@ public class BindingKeyEndorsementRequest{
 
     public void setEncryptionScheme(short encryptionScheme) {
         this.encryptionScheme = encryptionScheme;
+    }
+
+    public byte[] getNameDigest() {
+        return nameDigest;
+    }
+
+    public void setNameDigest(byte[] digest) {
+        this.nameDigest = digest;
     }
 
     public byte[] getPublicKeyModulus() {
@@ -55,6 +65,14 @@ public class BindingKeyEndorsementRequest{
         this.tpmCertifyKeySignature = tpmCertifyKeySignature;
     }
 
+    public String getTpmVersion(){
+        return tpmVersion;
+    }
+    
+    public void setTpmVersion(String version){
+        this.tpmVersion=version;
+    }
+    
     public byte[] getAikDerCertificate() {
         return aikDerCertificate;
     }
