@@ -24,6 +24,7 @@ public class BindingKeyEndorsementRequest{
     private short encryptionScheme; // TPM Encryption Scheme
     private byte[] nameDigest;
     private String tpmVersion = null;
+    private String operatingSystem = null;
 
     public short getEncryptionScheme() {
         return encryptionScheme;
@@ -65,6 +66,14 @@ public class BindingKeyEndorsementRequest{
         this.tpmCertifyKeySignature = tpmCertifyKeySignature;
     }
 
+     public String getOperatingSystem(){
+        return operatingSystem;
+    }
+
+    public void setOperatingSystem(String os){
+        this.operatingSystem=os;
+    }
+    
     public String getTpmVersion(){
         return tpmVersion;
     }
