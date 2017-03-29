@@ -36,6 +36,7 @@ import org.bouncycastle.asn1.x509.*;
 import org.bouncycastle.jce.provider.*;
 import javax.crypto.*;
 import javax.crypto.spec.*;
+import com.intel.dcsg.cpg.crypto.RandomUtil;
 import java.util.BitSet;
 
 /**
@@ -823,7 +824,7 @@ public class TpmUtils {
 	 */
 	public static byte [] createRandomBytes(int numBytes) 
 			throws IOException {
-		SecureRandom random = new SecureRandom();		
+		SecureRandom random = RandomUtil.getSecureRandom();		
 		//byte [] randomBytes = longToByteArray(random.nextLong());
 		byte [] randomBytes = new byte[numBytes];
 		random.nextBytes(randomBytes);
