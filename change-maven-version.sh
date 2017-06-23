@@ -31,5 +31,7 @@ mvnInstallCommand="mvn clean install"
 
 (cd features && $changeVersionCommand)
 if [ $? -ne 0 ]; then echo "Failed to change maven version on \"features\" folder" >&2; exit 3; fi
+(cd features && $changeParentVersionCommand)
+if [ $? -ne 0 ]; then echo "Failed to change maven parent versions in the \"features\" folder" >&2; exit 3; fi
 sed -i 's/\-[0-9\.]*\(\-SNAPSHOT\|\(\-\|\.zip$\|\.bin$\|\.jar$\)\)/-'${version}'\2/g' build.targets
 if [ $? -ne 0 ]; then echo "Failed to change versions in \"build.targets\" file" >&2; exit 3; fi
